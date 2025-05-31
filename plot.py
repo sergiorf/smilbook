@@ -109,8 +109,13 @@ avg_timeseries_gdp = [(year, value) for year, value in avg_series_gdp.items() if
 gdp_timeseries["Western Europe (avg)"] = avg_timeseries_gdp
 
 # --- Example usage ---
+#plot_energy_and_gdp(
+#    country_timeseries,
+#    gdp_timeseries,
+#    ['United States', 'Western Europe (avg)']
+#)
 plot_energy_and_gdp(
     country_timeseries,
     gdp_timeseries,
-    ['United States', 'Western Europe (avg)']
+    ['India', 'Bangladesh']
 )
